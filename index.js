@@ -24,7 +24,7 @@ const connectDB = async () => {
   }
 };
 const corsOpts = {
-  origin: ['*', "http://localhost:5173"],
+  origin: ['*', "http://localhost:5173", "https://client-two-rouge.vercel.app"],
   credentials: true,
   methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
